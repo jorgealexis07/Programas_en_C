@@ -9,9 +9,14 @@ int main(int narg,char *args[])
 	{
 		printf("El numero esta dentro del intervalo\n");
 	}
+	
+	else if(n>=15 && n<=20)
+	{
+		printf("El numero esta dentro del intervalo\n");
+	}
 	else 
 	{
-		printf("no se encuentra el numero dentro del intervalo\n");
+		printf("El numero no esta en ningun intervalo\n");
 	}
 	return 0;
 }
